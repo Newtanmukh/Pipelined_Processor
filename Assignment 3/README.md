@@ -24,5 +24,10 @@ The processor also uses an abstraction of main memory to get the code as well as
   * Instruction.java 
   * Misc.java
   * Operand.java
-  * Simulator.java - This file has been modified 
-  * Statistics.java
+  * Simulator.java - This file has been modified to load the program from assembly code to the main memory, setup the simulation and start simulating the processor. At the same time, it also counts the number of instructions processed and the number of cycles used.
+  * Statistics.java - This file defines the Statistics class that keeps track of the number of instructions executed and the number of cycles taken. It also has the required getter and setter functions required to access and modify those members.
+* main
+ * Main.java
+* processor
+ * Processor.java
+  
